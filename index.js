@@ -1,4 +1,5 @@
 function produceDrivingRange(range) {
+  console.log('is this working at all');
   return function(pos1, pos2) {
     let block1 = pos1.splice(2,2);
     let block2 = pos2.splice(2,2);
