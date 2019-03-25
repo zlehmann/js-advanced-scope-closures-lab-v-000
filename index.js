@@ -3,7 +3,7 @@ function produceDrivingRange(range) {
   return function(pos1, pos2) {
     let block1 = pos1.splice(2,2);
     let block2 = pos2.splice(2,2);
-    let distance = pos2-pos1;
+    let distance = block2-block1;
     let result = 0;
     console.log('range is' + range);
     if (distance <= range) {
