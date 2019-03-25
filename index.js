@@ -8,7 +8,7 @@ function produceDrivingRange(range) {
       result = ('within range by ' + (distance - range));
     } else {
       result = ((distance - range) + 'blocks out of range');
-    } 
+    }
     console.log(result);
     return result;
   };
