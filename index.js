@@ -1,5 +1,6 @@
 function produceDrivingRange(range) {
   return function(pos1, pos2) {
+    console.log('range is ' + range);
     let block1 = pos1.slice(0,-2);
     let block2 = pos2.slice(0,-2);
     console.log('block1 is ' + block1);
