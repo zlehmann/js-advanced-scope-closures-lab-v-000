@@ -12,3 +12,9 @@ function produceDrivingRange(range) {
     return result;
   };
 }
+
+function produceTipCalculator(percent) {
+  return function(fare) {
+    return fare * percent;
+  };
+}
