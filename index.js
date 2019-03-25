@@ -14,6 +14,7 @@ function produceDrivingRange(range) {
       result = ((distance - range) + ' blocks out of range');
     }
     console.log(result);
+    console.log('======================================');
     return result;
   };
 }
