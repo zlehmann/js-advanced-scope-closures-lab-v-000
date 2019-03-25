@@ -9,7 +9,7 @@ function produceDrivingRange(range) {
     let result = 0;
     console.log('distance is ' + distance);
     if (distance <= range) {
-      result = ('within range by ' + (distance - range));
+      result = ('within range by ' + Math.abs(distance - range));
     } else {
       result = ((distance - range) + ' blocks out of range');
     }
