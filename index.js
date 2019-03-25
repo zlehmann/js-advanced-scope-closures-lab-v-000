@@ -9,5 +9,6 @@ function produceDrivingRange(range) {
     } else {
       result = ((distance - range) + 'blocks out of range');
     }
+    return result;
   };
 }
