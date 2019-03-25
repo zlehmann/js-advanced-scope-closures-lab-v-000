@@ -3,6 +3,7 @@ function produceDrivingRange(range) {
     let block1 = pos1.slice(0,-2);
     let block2 = pos2.slice(0,-2);
     console.log('block1 is ' + block1);
+    console.log('block2 is ' + block2);
     let distance = block2-block1;
     let result = 0;
     console.log('distance is ' + distance);
